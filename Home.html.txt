@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <meta charset="utf-8"/>
+     <title>index_home.html</title>
+     <href="https://fonts.googleapis.com/css?family=lato" rel="stylesheet">                                /* from google fonts */
+     <link rel="stylesheet" href="Master.css">                                                /*create another folder in the project #styles.css */
+
+</head>
+<body>
+     <div class="container">
+        <div class="nav-wrapper">
+            <div class="right-side">
+               <div class="nav-link-wrapper active-nav-link">
+                   <a href="index.html">HOME</a>
+               </div>
+               <div class="nav-link-wrapper active-nav-link">
+                   <a href="about.html">ABOUT</a>
+               </div>
+               <div class="nav-link-wrapper active-nav-link">
+                   <a href="services.html">SERVICES</a>
+               </div>
+               <div class="nav-link-wrapper active-nav-link">
+                   <a href="contact.html">CONTACT</a>
+               </div>
+            </div>
+            <div class= "left-side">
+               <div class="logo-wrapper">
+                     <img src="wisap-logo: C:\xampp\htdocs\dashboard\WISAP template="">
+               </div>
+            </div>
+        </div>
+        <div class= "content-wrapper">
+           <div class= "portfolio-item-wrapper">
+           <div class= "portfolio-img-background" style= "background-image: url(C:\xampp\htdocs\dashboard\WISAP template)"></div>
+           <div class="img.tex-wrapper">
+              <div class="logo-wrapper">
+                   <img src="images/logos/quip.png" alt="">
+               </div>
+               <div class="subtitle">
+                   Wisap enterprises ltd.......
+           </div>
+     </div>
+</body>
+<script>
+    const portfolio-item = document.querySelectorAll('.portfolio-item-wrapper')
+    portfolioitem.forEach(portfolioitem=>{
+    portfolioitem.addEventListener('mouseover', () =>{
+        console.log(portfolioitem.classList.add(img-darken)); 
+        portfolioitem.addEventListener('mouseout', () =>{                      // portfolioitem.addEventListener('mouseover', () =>{
+        console.log(portfolioitem);                                            //console.log(portfolioitem.childNodes[1].classList);
+        console.log(portfolioitem.classList.remove(img-darken));              //      portfolioitem.childNodes[1].classList.add('img-darken'));
+    })                                                                        //      portfolioitem.addEventListener('mouseout', () =>{                                                                             
+                                                                              //      console.log(portfolioitem);
+  })                                                                          //      console.log(portfolioitem.classList.remove(img-darken));                                                                                
+</script>                                                                           
+</html>
+

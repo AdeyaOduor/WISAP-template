@@ -1,0 +1,11 @@
+Build the project
+   create folder - index.html(home),add files; about, services, images, logos and contact to the folder then link the files using #styles.css
+navbar
+   links and names
+Home item grid
+   images, titles, descriptions and javaScript animations
+about page
+   image, split column layout and content
+Partners
+   image logos(SAP)
+contact

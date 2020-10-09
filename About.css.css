@@ -1,0 +1,14 @@
+/* About page #styles.css */
+.two-column-wrapper {
+     display: grid;
+     grid-template-columns: 1fr, 1fr;
+}
+.profile-image-wrapper img {
+     width: 100%
+}
+.profile-content-wrapper {
+     padding: 30px;
+}
+.profile-content-Wrapper h1 {
+     colour: royal blue;
+}
